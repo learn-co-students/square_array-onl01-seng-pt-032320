@@ -1,9 +1,5 @@
-
 def square_array(numbers)
-  
-  numbers.each do |number| 
-    puts  "#{number} ** 2" 
-    
+  new_numbers = Array.new()
+  new_numbers << numbers.each do "#{numbers} ** 2" 
   end
 end
-
