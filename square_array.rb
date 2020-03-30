@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  square_out=[]
+  array.each do |square_in|
+    square_out << square_in ** 2
+  end
+  square_out
 end
